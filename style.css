@@ -1,0 +1,116 @@
+body {
+    background-image: url('images/jjjj.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+
+}
+
+.header {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.container {
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+}
+
+.material-symbols-outlined {
+    font-size: no;
+    font-variation-settings:
+        'FILL' 100,
+        'wght' 250,
+        'GRAD' 360,
+        'opsz' 48
+}
+
+.lifeline {
+    width: 60px;
+    margin: 15px;
+    border: 2px solid rgb(13, 224, 224);
+    border-radius: 25px;
+}
+
+.float {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    right: 7%;
+    float: right;
+}
+.float-p{
+    top: 7%;
+ 
+    position: relative;
+    float: right;
+    left: 86%;
+}
+.pirze{
+    border: 2px solid rgb(0, 255, 247);
+    border-radius: 15px;
+    padding: 3px;
+    text-align: center;
+}
+.question {
+    border: 2px solid rgb(0, 255, 247);
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+   
+}
+
+.answer {
+    margin: auto;
+   
+}
+
+.ans {
+    padding: 15px;
+    border: 2px solid rgb(0, 255, 247);
+    border-radius: 15px;
+    margin: 200px;
+
+}
+
+.ans:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.cont_button {
+    margin: 25px;
+    display: inline-block;
+}
+
+.button {
+    position: relative;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(0, 255, 247);
+    border: 2px solid rgb(0, 255, 247);
+    border-radius: 40%;
+    padding: 15px;
+}
+
+.button:hover {
+    background-color: black;
+    text-shadow: 2px 2px 7px gold;
+}
+.back{
+    left: 25%;
+}
+.next {
+    left: 500%;
+}
