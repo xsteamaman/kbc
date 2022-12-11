@@ -56,7 +56,7 @@ img.lifeline {
     border: 2px solid rgb(0, 255, 247);
     border-radius: 15px;
     width: 250px;
-    margin: 15px 30% 15px 30%;
+    margin: 15px 30% 15px 36%;
     display: block;
     padding: 5px;
 }
@@ -71,7 +71,7 @@ img.lifeline {
 }
 
 .prices {
-    margin: 7px 0px 7px 30px;
+    margin: 7px 0px 7px 60px;
     width: 60%;
     border: 2px solid rgb(0, 255, 247);
     border-radius: 15px;
