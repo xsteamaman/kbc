@@ -19,7 +19,7 @@ body {
     margin-right: 100px;
     font-size: 18px;
     display: block;
-    width: 100%;
+    width: 93%;
 }
 
 .float {
@@ -65,7 +65,9 @@ img.lifeline {
     background-color: rgb(0, 0, 0);
     cursor: pointer;
 }
-
+.corr:hover{
+    background-color: rgb(6, 193, 6);
+}
 .price {
     width: 10%;
 }
@@ -82,10 +84,11 @@ img.lifeline {
 .cont_button {
     margin: 25px;
     display: inline-block;
+    width: 93%;
 }
 
 .button {
-    position: relative;
+    position: absolute;
     text-decoration: none;
     font-size: 35px;
     color: rgb(0, 255, 247);
@@ -100,9 +103,29 @@ img.lifeline {
 }
 
 .back {
-    left: 25%;
+    float: left;
+    left: 15%;
 }
 
 .next {
-    left: 500%;
+    float: right;
+    right: 15%;
+}
+.kbc {
+text-align: center;
+padding: 9%;
+margin: 12%;
+text-decoration: underline;
+font-size: 150%;
+}
+.switch{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(0, 255, 247);
+    border: 2px solid rgb(0, 255, 247);
+    border-radius: 40px;
+    padding: 15px;
+}
+.green{
+    background-color: green;
 }
