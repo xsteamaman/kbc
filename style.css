@@ -129,3 +129,20 @@ font-size: 150%;
 .green{
     background-color: green;
 }
+
+
+
+
+
+.corrr:hover{
+    color: aliceblue;
+    background-color: rgb(6, 193, 6);
+    text-decoration: none;
+}
+.kbcc {
+    text-align: center;
+    padding: 9%;
+    margin: 12%;
+   
+    font-size: 150%;
+    }
