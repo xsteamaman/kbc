@@ -1,3 +1,4 @@
+
 body {
     background-image: url('images/jjjj.jpeg');
     background-repeat: no-repeat;
@@ -27,6 +28,24 @@ body {
     display: inline-block;
 }
 
+@keyframes si{
+    0%{
+        padding: 1px;
+    }
+    25%{
+        padding: 1.3px;
+    }
+    50%{
+        padding: 1.6px;
+    }
+    75%{
+        padding: 1.9px;
+    }
+    100%{
+        padding: 2.1px;
+    }
+}
+
 .lifeline {
     width: 15%;
 }
@@ -37,6 +56,16 @@ img.lifeline {
     border-radius: 25px;
     display: block;
     width: 50px;
+}
+
+
+img.lifeline:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-shadow: 2px 2px 2px red;
+    box-shadow: 2px 2px 1.5px red;
+    animation: size 0.1s forwards;
+
 }
 
 .quiz {
@@ -60,10 +89,31 @@ img.lifeline {
     display: block;
     padding: 5px;
 }
+@keyframes size{
+    0%{
+        padding: 5px;
+    }
+    25%{
+        padding: 5.3px;
+    }
+    50%{
+        padding: 5.6px;
+    }
+    75%{
+        padding: 5.9px;
+    }
+    100%{
+        padding: 6.1px;
+    }
+}
 
 .ans:hover {
     background-color: rgb(0, 0, 0);
     cursor: pointer;
+    text-shadow: 3px 3px 7px red;
+    box-shadow: 3px 3px 2px red;
+    animation: size 0.1s forwards;
+
 }
 .corr:hover{
     background-color: rgb(6, 193, 6);
@@ -77,8 +127,34 @@ img.lifeline {
     width: 60%;
     border: 2px solid rgb(0, 255, 247);
     border-radius: 15px;
-    padding: 3px;
+    padding: 2px;
     text-align: center;
+}
+
+@keyframes pr{
+    0%{
+        padding: 2px;
+    }
+    25%{
+        padding: 2.3px;
+    }
+    50%{
+        padding: 2.6px;
+    }
+    75%{
+        padding: 2.9px;
+    }
+    100%{
+        padding: 3.1px;
+    }
+}
+.prices:hover {
+    background-color: rgb(6, 193, 6);
+    cursor: pointer;
+    text-shadow: 3px 3px 7px red;
+    box-shadow: 3px 3px 2px red;
+    animation: size 0.1s forwards;
+
 }
 
 .cont_button {
